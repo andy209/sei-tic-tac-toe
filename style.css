@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(233, 2, 250, 0.921);
+     }
+.box{
+    border:5px solid rgba(55, 0, 255, 0.506);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+#board{
+    display: grid;
+    width: 60%;
+    margin: 200px auto;
+    grid-template-areas: 
+    'one two three'
+    'four five six'
+    'seven eight nine'
+    ;
+}
+.one{
+grid-area: one ;
+}
+.two{
+grid-area: two;
+}
+.three{
+grid-area: three;
+}
+.four{
+grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
